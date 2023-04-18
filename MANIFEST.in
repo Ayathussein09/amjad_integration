@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include amjad_integration *.css
+recursive-include amjad_integration *.csv
+recursive-include amjad_integration *.html
+recursive-include amjad_integration *.ico
+recursive-include amjad_integration *.js
+recursive-include amjad_integration *.json
+recursive-include amjad_integration *.md
+recursive-include amjad_integration *.png
+recursive-include amjad_integration *.py
+recursive-include amjad_integration *.svg
+recursive-include amjad_integration *.txt
+recursive-exclude amjad_integration *.pyc
